@@ -15,8 +15,8 @@
 
 
 .carousel {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 60vh;
     position: relative;
 }
 
@@ -79,4 +79,82 @@
 
 .carousel-button.next {
     right: 1rem;
+}
+
+.d1 {
+    transition-delay: 100ms
+}
+
+.d2 {
+    transition-delay: 200ms
+}
+
+.d3 {
+    transition-delay: 300ms
+}
+
+.d4 {
+    transition-delay: 400ms
+}
+
+.d5 {
+    transition-delay: 500ms
+}
+
+.d6 {
+    transition-delay: 600ms
+}
+
+.d7 {
+    transition-delay: 700ms
+}
+
+.d8 {
+    transition-delay: 800ms
+}
+
+.d9 {
+    transition-delay: 900ms
+}
+
+
+.box {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    margin-right: 5px;
+}
+
+.center {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.reveal-x {
+    position: relative;
+    transform: translateX(-150px);
+    opacity: 0;
+    transition: all 1.01s;
+}
+
+.slideActive-x {
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1.01s;
+}
+
+.slideActive {
+    transform: translateY(0px);
+    opacity: 1;
 }

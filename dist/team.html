@@ -97,7 +97,7 @@
             <h1 class="text-Hunter-color text-4xl font-bold my-16">Hocamız</h1>
 
 
-            <div class="text-center duration-300 hover:-translate-y-2  shadow-xl p-2 rounded">
+            <div class="text-center duration-300 hover:-translate-y-2  shadow-xl p-2 rounded reveal ">
                 <img class="mx-auto mb-4 w-36 h-36 rounded-full " src="../img/logo1.jpg" alt="Team">
                 <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 ">
                     <p>Ali Secaettin Kan</*>
@@ -109,7 +109,7 @@
 
             <h1 class="text-Hunter-color text-4xl font-bold my-16">Mentorler</h1>
             <div class="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-2  justify-center items-center">
-                <div class="text-center duration-300 hover:-translate-y-2  shadow-xl p-2 rounded">
+                <div class="text-center duration-300 hover:-translate-y-2  shadow-xl p-2 rounded reveal-x d1">
                     <img class="mx-auto mb-4 w-36 h-36 rounded-full " src="../img/logo1.jpg" alt="Team">
                     <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 ">
                         <p>Ali Secaettin Kan</*>
@@ -118,7 +118,7 @@
 
                 </div>
 
-                <div class="text-center duration-300 hover:-translate-y-2  shadow-xl p-2 rounded">
+                <div class="text-center duration-300 hover:-translate-y-2  shadow-xl p-2 rounded reveal-x d3">
                     <img class="mx-auto mb-4 w-36 h-36 rounded-full " src="../img/logo1.jpg" alt="Team">
                     <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 ">
                         <p>Emrah Akdeniz</p>
@@ -311,6 +311,46 @@
 
         </div>
     </section>
+
+
+    <!-- Scripts -->
+
+    <script type="text/javascript">
+
+        window.addEventListener('scroll', reveal);
+        function reveal() {
+            var reveals = document.querySelectorAll('.reveal');
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var revealTop = reveals[i].getBoundingClientRect().top;
+                var revealPoint = 150;
+
+                if (revealTop < windowHeight - revealPoint) {
+                    reveals[i].classList.add('slideActive');
+                }
+            }
+        }
+    </script>
+
+
+
+
+    <script>
+        window.addEventListener('scroll', reveal);
+        function reveal() {
+            var reveals = document.querySelectorAll('.reveal-x');
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var revealTop = reveals[i].getBoundingClientRect().top;
+                var revealPoint = 150;
+
+                if (revealTop < windowHeight - revealPoint) {
+                    reveals[i].classList.add('slideActive-x');
+                }
+            }
+        }
+    </script>
+
 
 </body>
 
