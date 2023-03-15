@@ -1,14 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hunter | Hakkımızda</title>
+    <link rel="stylesheet" href="dist/style.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="shortcut icon" href="img/logo1.jpg" type="image/x-icon">
+
+
+    <style>
+        /* For early loading */
+        .welcomer {
+            background-image:
+                linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 00, 0.73)),
+                url('/img/image-5.JPG');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+
 </head>
 
+
 <body>
+
+    <nav class="bg-Hunter-black border-gray-200 px-2 sm:px-4 py-2.5  text-text-white text-xl z-50 fixed w-full">
+        <div class="container flex flex-wrap items-center justify-between mx-auto">
+            <a href="index.html" class="flex items-center">
+                <img src="../img/logo1.jpg" class="h-6 mr-3 sm:h-20" alt="Hunter team Logo" />
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 ml-3 text-sm gray-500 rounded-lg md:hidden  focus:outline-none focus:ring-2 focus:ring-gray-200"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto " id="navbar-default">
+                <ul
+                    class="flex flex-col p-4 mt-4  rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white ">
+                    <li>
+                        <a href="index.html"
+                            class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0   hover:text-Hunter-color duration-300 transition hover:-translate-y-1 text-lg"
+                            aria-current="page">Anasayfa</a>
+                    </li>
+                    <li>
+                        <a href="team.html"
+                            class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0   hover:text-Hunter-color duration-300 transition hover:-translate-y-1 text-lg">Takımımız</a>
+                    </li>
+
+                    <li>
+                        <a href="404.html"
+                            class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  hover:text-Hunter-color duration-300 transition hover:-translate-y-1 text-lg">Hakkımızda</a>
+                    </li>
+                    <li>
+                        <a href="404.html"
+                            class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  hover:text-Hunter-color duration-300 transition hover:-translate-y-1 text-lg">İletişim</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="w-full h-[90vh] welcomer bg-Hunter-color ">
+        <div class="flex absolute centered flex-col">
+            <h1 class="text-text-white color text-8xl text-center font-semibold">Hakkımızda</h1>
+
+        </div>
+    </div>
+
+
+    <div class="flex justify-center items-center container mx-auto">
+        Hunters Robotics Topluluğu öğrencileri STEM çalışmaları ile tanıştırmayı, teknoloji ve
+        girişimcilik alanlarında çalışmalar yapan, eğitim odaklı bir yaklaşımla gençlerin gelecek
+        planlamalarına yardımcı olmayı hedefleyen 2021 yılında kurulmuş bir topluluktur. Birçok
+        yarışma ve organizasyonda da yer alan topluluk üyelerimiz FRC serüvenine 2022 yılında
+        başlayacaktır. Aynı zamanda cinsiyet eşitliği konusunda da hassas bir yaklaşımla
+        topluluğumuzdaki kız öğrenci sayısını her geçen gün artırmayı hedefliyoruz.
+    </div>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
