@@ -8,10 +8,15 @@
     <title>Hunter | İletişim</title>
     <link rel="stylesheet" href="dist/style.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <link rel="shortcut icon" href="img/logo1.jpg" type="image/x-icon">
 
@@ -21,7 +26,7 @@
         .welcomer {
             background-image:
                 linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 00, 0.73)),
-                url('/img/image-5.JPG');
+                url('/img/image-2.JPG');
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -37,7 +42,7 @@
                 position: relative;
                 color: #fff;
                 background: linear-gradient(to bottom, rgba(0, 0, 0, 0.72), rgba(0, 0, 00, 0.93)),
-                    url('../img/image-5.JPG') no-repeat center center scroll;
+                    url('../img/image-2.JPG') no-repeat center center scroll;
                 -webkit-background-size: cover;
                 -moz-background-size: cover;
                 -o-background-size: cover;
@@ -69,24 +74,24 @@
             </button>
             <div class="hidden w-full md:block md:w-auto " id="navbar-default">
                 <ul
-                    class="flex flex-col p-4 mt-4  rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white ">
+                    class="flex flex-col p-4 mt-4  rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 ">
                     <li>
                         <a href="index.html"
-                            class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0   hover:text-Hunter-color duration-300 transition hover:-translate-y-1 text-lg"
+                            class="block py-2 pl-3 pr-4 text-text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-Hunter-color md:p-0   hover:text-Hunter-color duration-300 transition hover:-translate-y-1 text-lg"
                             aria-current="page">Anasayfa</a>
                     </li>
                     <li>
                         <a href="team.html"
-                            class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0   hover:text-Hunter-color duration-300 transition hover:-translate-y-1 text-lg">Takımımız</a>
+                            class="block py-2 pl-3 pr-4 text-text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:text-text-white md:p-0   hover:text-Hunter-color duration-300 transition hover:-translate-y-1 text-lg">Takımımız</a>
                     </li>
 
                     <li>
                         <a href="about.html"
-                            class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  hover:text-Hunter-color duration-300 transition hover:-translate-y-1 text-lg">Hakkımızda</a>
+                            class="block py-2 pl-3 pr-4 text-text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:text-text-white md:p-0  hover:text-Hunter-color duration-300 transition hover:-translate-y-1 text-lg">Hakkımızda</a>
                     </li>
                     <li>
                         <a href="contact.html"
-                            class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  hover:text-Hunter-color duration-300 transition hover:-translate-y-1 text-lg">İletişim</a>
+                            class="block py-2 pl-3 pr-4 text-text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:text-text-white md:p-0  hover:text-Hunter-color duration-300 transition hover:-translate-y-1 text-lg">İletişim</a>
                     </li>
                 </ul>
             </div>
@@ -97,23 +102,112 @@
 
     <div class="w-full h-[90vh] welcomer bg-Hunter-color ">
         <div class="flex absolute centered flex-col">
-            <h1 class="text-text-white color text-8xl text-center font-semibold">Hakkımızda</h1>
-
+            <h1 class="text-text-white color text-8xl text-center font-semibold text">İletişim</h1>
         </div>
     </div>
 
 
-    <div class="flex justify-center items-center container mx-auto p-12">
-        <div class="maxw">
-            Hunters Robotics Topluluğu öğrencileri STEM çalışmaları ile tanıştırmayı, teknoloji ve
-            girişimcilik alanlarında çalışmalar yapan, eğitim odaklı bir yaklaşımla gençlerin gelecek
-            planlamalarına yardımcı olmayı hedefleyen 2021 yılında kurulmuş bir topluluktur. Birçok
-            yarışma ve organizasyonda da yer alan topluluk üyelerimiz FRC serüvenine 2022 yılında
-            başlayacaktır. Aynı zamanda cinsiyet eşitliği konusunda da hassas bir yaklaşımla
-            topluluğumuzdaki kız öğrenci sayısını her geçen gün artırmayı hedefliyoruz.
-        </div>
-    </div>
+    <!-- Container for demo purpose -->
+    <div class="container my-24 px-6 mx-auto">
 
+        <!-- Section: Design Block -->
+        <section class="mb-32 text-gray-800">
+            <style>
+                .map-container-2 {
+                    height: 500px;
+                }
+            </style>
+            <div class="block rounded-lg shadow-lg">
+                <div class="flex flex-wrap items-center">
+                    <div class="grow-0 shrink-0 basis-auto block w-full lg:flex lg:w-6/12 xl:w-4/12">
+                        <div class="map-container-2 w-full">
+
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.9365392618624!2d29.198838615413948!3d41.00476217930103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cace4b34146ae1%3A0x50fc7a6ff5220a8d!2zxZ5FSMSwVCBZw5xaQkHFnkkgWVVTVUYgS0VOQU4gTUVTTEVLxLAgVkUgVEVLTsSwSyBBTkFET0xVIEzEsFNFU8Sw!5e0!3m2!1str!2str!4v1679561464926!5m2!1str!2str"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                                class="left-0 top-0 h-full w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg"></iframe>
+                        </div>
+                    </div>
+                    <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
+                        <div class="flex flex-wrap pt-12 lg:pt-0">
+                            <div
+                                class="mb-12 grow-0 shrink-0 basis-auto w-full md:w-6/12 lg:w-full xl:w-6/12 px-3 md:px-6 xl:px-12">
+                                <div class="flex items-start">
+                                    <div class="shrink-0">
+                                        <div
+                                            class="p-4 bg-Hunter-color rounded-md shadow-md w-14 h-14 flex items-center justify-center text-text-white">
+                                            <i class="fa-solid fa-phone text-2xl"></i>
+                                        </div>
+                                    </div>
+                                    <div class="grow ml-6">
+                                        <p class="font-bold mb-1">Telefon no:</p>
+                                        <p>Ali Secaattin</p>
+                                        <a class="text-gray-500" href="tel:05058894727">+90 5058894727</a>
+                                        <br>
+                                        <p>Delfin</p>
+                                        <a class="text-gray-500" href="tel:05511420188">+90 5511420188</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="mb-12 grow-0 shrink-0 basis-auto w-full md:w-6/12 lg:w-full xl:w-6/12 px-3 md:px-6 xl:px-12">
+                                <div class="flex items-start">
+                                    <div class="shrink-0">
+                                        <div
+                                            class="p-4 bg-Hunter-color rounded-md shadow-md w-14 h-14 flex items-center justify-center text-text-white">
+                                            <i class="fa-solid fa-envelope text-2xl"></i>
+                                        </div>
+                                    </div>
+                                    <div class="grow ml-6">
+                                        <p class="font-bold mb-1">Mail adresimiz</p>
+                                        <a class="text-gray-500" href="mailto:
+                                        huntersrobotik@gmail.com">
+                                            huntersrobotik@gmail.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="mb-12 grow-0 shrink-0 basis-auto w-full md:w-6/12 lg:w-full xl:w-6/12 px-3 md:px-6 xl:px-12">
+                                <div class="flex align-start">
+                                    <div class="shrink-0">
+                                        <div
+                                            class="p-4 bg-Hunter-color rounded-md shadow-md w-14 h-14 flex items-center justify-center text-text-white">
+                                            <i class="fa-brands fa-instagram text-2xl"></i>
+                                        </div>
+                                    </div>
+                                    <div class="grow ml-6">
+                                        <p class="font-bold mb-1">Instagram</p>
+                                        <a class="text-gray-500"
+                                            href="https://www.instagram.com/huntersrobotics/">www.instagram.com/huntersrobotics</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="mb-12 lg:mb-0 grow-0 shrink-0 basis-auto w-full md:w-6/12 lg:w-full xl:w-6/12 px-3 md:px-6 xl:px-12">
+                                <div class="flex align-start">
+                                    <div class="shrink-0">
+                                        <div
+                                            class="p-4 bg-Hunter-color rounded-md shadow-md w-14 h-14 flex items-center justify-center text-text-white">
+                                            <i class="fa-brands fa-linkedin text-2xl"></i>
+                                        </div>
+                                    </div>
+                                    <div class="grow ml-6">
+                                        <p class="font-bold mb-1">Linkedin</p>
+                                        <p class="text-gray-500">linkedin.com/in/hunters-robotics-167895255</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section: Design Block -->
+
+    </div>
+    <!-- Container for demo purpose -->
 
 
 
@@ -140,13 +234,13 @@
                         <img src="../img/logo1.jpg" alt="hunters logo" class="w-36">
                     </div>
                     <a href="index.html"
-                        class="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">Anasayfa</a>
+                        class="hidden md:block cursor-pointer text-text-white hover:text-white uppercase">Anasayfa</a>
                     <a href="team.html"
-                        class="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">Takımımız</a>
+                        class="hidden md:block cursor-pointer text-text-white hover:text-white uppercase">Takımımız</a>
                     <a href="about.html"
-                        class="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">Hakkımızda</a>
+                        class="hidden md:block cursor-pointer text-text-white hover:text-white uppercase">Hakkımızda</a>
                     <a href="contact.html"
-                        class="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">İletişim</a>
+                        class="hidden md:block cursor-pointer text-text-white hover:text-white uppercase">İletişim</a>
                     <div class="flex flex-row space-x-8 items-center justify-between">
                         <a href="https://z-p15.www.instagram.com/huntersrobotics/">
 
@@ -160,8 +254,13 @@
                         </a>
                     </div>
                 </div>
-                <hr class="border-gray-600" />
-                <p class="w-full text-center my-12 text-gray-600">Copyright © 2023 Hunters Team</p>
+                <hr class="border-gray-600 text-text-white" />
+                <p class="w-full text-center my-12 text-text-white">Copyright © 2023 Hunters Team.<a
+                        href="https://github.com/toprak-cavusdag" target="_blank" class="font-bold">Toprak
+                        Çavuşdağ</a>
+                    tarafından
+                    gönüllü olarak
+                    yapılmıştır.</p>
             </div>
         </div>
     </footer>
@@ -223,6 +322,33 @@
                 delete activeSlide.dataset.active
             })
         })
+    </script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
+        integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        const tl = gsap.timeline({
+            defaults: { duration: 1.5, ease: 'Power3.easeOut' },
+        });
+
+        tl.fromTo(
+            '.welcomer',
+            { scale: 1.3, },
+            {
+                scale: 1,
+                delay: 0.35,
+                duration: 2.5,
+                delay: 0.35,
+                ease: 'elastic.out(1.5,1)',
+            }
+        );
+
+        tl.fromTo('.title', { y: '100%', opacity: 0 }, { y: 0, opacity: 1 }, '<20%');
+        tl.fromTo('.text', { y: '-100%', opacity: 0 }, { y: 0, opacity: 1 }, '<20%');
+
     </script>
 
 
